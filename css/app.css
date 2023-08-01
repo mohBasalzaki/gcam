@@ -9,17 +9,28 @@
 
 :root,
 [data-bs-theme=light] {
+    --header-logo: url(../images/logo-w.png);
+    --hero-overlay: var(--bs-light);
     --heading-color: var(--bs-primary);
     --bs-disabled: #666784;
     --bg-mega-menu: #29318A;
     --bg-main: #F7FDFE;
+    --bg-custom-color: var(--bs-light-rgb);
+    --bs-bg-opacity: 1;
+    --btn-outline-primary: var(--bs-primary);
+    --services-bg-light: var(--bs-light);
 }
 
 [data-bs-theme=dark] {
+    --header-logo: url(../images/logo-footer.png);
+    --hero-overlay: var(--bs-secondary);
     --heading-color: var(--bs-light);
     --bs-disabled: #666784;
     --bg-mega-menu: #29318A;
     --bg-main: ;
+    --bg-custom-color: var(--bs-body-bg);
+    --btn-outline-primary: var(--bs-light);
+    --services-bg-light: var(--bs-body-bg);
 }
 
 body {
@@ -38,8 +49,29 @@ header {
     z-index: 999;
 }
 
+header .header-logo {
+    background-image: var(--header-logo);
+    height: 50px;
+    width: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#navbarText .nav-link {
+    color: var(--heading-color);
+}
+
+.header-switch {
+    display: flex !important;
+}
+
 section {
     padding: 5vw 0;
+}
+
+section.bg-light {
+    background-color: rgba(var(--bg-custom-color), var(--bs-bg-opacity)) !important;
 }
 
 section#hero {
@@ -47,10 +79,24 @@ section#hero {
 }
 
 #hero .hero-img {
-    height: 40vw;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#hero .hero-img .row {
+    height: 40vw;
+    align-items: center;
+}
+
+#hero .hero-img .hero-overlay {
+    position: absolute;
+    background: var(--hero-overlay);
+    height: 40vw;
+    top: 0;
+    right: 0;
+    width: 50%;
+    opacity: 0.8;
 }
 
 .navbar .dropdown-toggle::after {
@@ -62,7 +108,7 @@ section#hero {
 }
 
 .navbar-toggler .bi {
-    color: var(--bs-dark);
+    color: var(--heading-color);
 }
 
 #primary-menu .navbar-toggler .bi {
@@ -85,12 +131,16 @@ section#hero {
 
 .hero-content {
     position: relative;
-    transform: translate(0, 12.5vw);
     bottom: 0;
 }
 
 .hero-content h3 {
     line-height: 2.5rem;
+    color: var(--heading-color);
+}
+
+.hero-content p {
+    color: var(--heading-color);
 }
 
 .btn .bi {
@@ -169,6 +219,11 @@ nav#primary-menu {
     color: var(--bs-light);
 }
 
+.btn-outline-primary {
+    color: var(--btn-outline-primary);
+    border-color: var(--btn-outline-primary);
+}
+
 .btn-outline-primary:hover, .btn-outline-primary:active {
     background-color: var(--bs-secondary) !important;
     border-color: var(--bs-secondary) !important;
@@ -224,6 +279,10 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p {
 
 footer a {
     text-decoration: none;
+}
+
+footer .border {
+    border-color: var(--bs-white) !important;
 }
 
 .footer-item {
@@ -388,8 +447,20 @@ button.btn.btn-secondary {
 }
 
 @media (max-width: 560px) {
+    .order-sm-1 {
+        order: 1 !important;
+    }
+
+    .order-sm-2 {
+        order: 2 !important;
+    }
+
     .navbar-brand {
         width: 70%;
+    }
+
+    header .header-logo {
+        width: 300px;
     }
 
     .navbar-brand img {
@@ -397,24 +468,45 @@ button.btn.btn-secondary {
     }
 
     nav#primary-menu {
-        margin-top: -20px;
+        margin-top: -10px;
         padding: 5px;
     }
 
     #hero .hero-img {
-        height: 75vw;
+        height: 150vw;
+    }
+
+    #hero .hero-img .hero-overlay {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 60vw;
     }
 
     #hero .owl-dots {
-        transform: translate(-3vw, 63vw) !important;
+        display: none;
+    }
+
+    .hero-content {
+        position: absolute;
+        bottom: 40px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+        line-height: 1.8rem;
     }
 
     #services a.card {
-        height: 55vw !important;
+        height: 70vw !important;
     }
 
     .footer-item br {
         display: block;
+    }
+
+    .position-fixed {
+        bottom: 5%;
     }
 }
 
@@ -426,6 +518,29 @@ button.btn.btn-secondary {
     .col-sm-6 {
         flex: 0 0 auto;
         width: 50%;
+    }
+
+    .header-span {
+        display: none;
+    }
+
+    .header-switch {
+        justify-content: space-between;
+        margin: 0 !important;
+        background-color: var(--bs-secondary);
+        align-items: center;
+    }
+
+    .header-menu .container {
+        padding-bottom: 15px;
+    }
+
+    .header-menu .btn .bi {
+        color: var(--heading-color);
+    }
+
+    .header-switch .mb-2 {
+        margin: 0 !important;
     }
 
     .my-sm-2 {
@@ -452,8 +567,12 @@ button.btn.btn-secondary {
     margin-right: 5px;
 }
 
+#services .bg-light, #services-section .bg-light, .tab-content, header.bg-light, header .bg-light {
+    background-color: var(--services-bg-light) !important;
+}
+
 #services a.card {
-    height: 10.5vw;
+    height: 13vw;
 }
 
 #services .card-body {
@@ -464,6 +583,11 @@ button.btn.btn-secondary {
     width: auto;
     margin: auto;
     margin-bottom: 1.5rem;
+}
+
+#services .card svg {
+    fill: var(--heading-color);
+    width: 10rem;
 }
 
 .section-heading {
@@ -518,6 +642,10 @@ button.btn.btn-secondary {
 }
 
 .gcam-systems .card p {
+    color: var(--bs-white) !important;
+}
+
+.gcam-systems .card p, .gcam-systems .card .overlay-content p {
     color: var(--bg-main);
     font-weight: bold;
     margin-top: 1.5rem !important;
@@ -525,18 +653,18 @@ button.btn.btn-secondary {
 }
 
 /* Owl */
-.owl-theme .owl-nav.disabled + .owl-dots {
+.owl-theme .owl-nav.disabled + .owl-dots, .owl-theme .owl-dots {
     margin-top: 2rem;
 }
 
 .owl-theme .owl-dots .owl-dot span {
     background: transparent;
-    border: solid 1px var(--bs-primary);
+    border: solid 1px var(--btn-outline-primary);
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--bs-primary);
+    background: var(--btn-outline-primary);
 }
 
 .owl-theme .owl-nav [class*='owl-'] span {
@@ -546,10 +674,10 @@ button.btn.btn-secondary {
     font-size: 20px;
     height: 50px;
     width: 50px;
-    -webkit-box-shadow: 5px 6px 0px 5px rgba(26,31,88,1);
-    -moz-box-shadow: 5px 6px 0px 5px rgba(26,31,88,1);
-    box-shadow: 2px 2px 0px 0px rgba(26,31,88,1);
-    color: var(--bs-primary);
+    -webkit-box-shadow: 5px 6px 0px 5px var(--btn-outline-primary);
+    -moz-box-shadow: 5px 6px 0px 5px var(--btn-outline-primary);
+    box-shadow: 2px 2px 0px 0px var(--btn-outline-primary);
+    color: var(--btn-outline-primary);
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
