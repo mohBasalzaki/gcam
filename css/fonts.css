@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Thin.eot');
+    src: url('../fonts/LoewNextArabic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Thin.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Thin.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Thin.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Thin.svg#LoewNextArabic-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Medium.eot');
+    src: url('../fonts/LoewNextArabic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Medium.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Medium.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Medium.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Medium.svg#LoewNextArabic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Light.eot');
+    src: url('../fonts/LoewNextArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Light.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Light.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Light.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Light.svg#LoewNextArabic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Bold.eot');
+    src: url('../fonts/LoewNextArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Bold.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Bold.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Bold.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Bold.svg#LoewNextArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Black.eot');
+    src: url('../fonts/LoewNextArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Black.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Black.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Black.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Black.svg#LoewNextArabic-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-ExtraBold.eot');
+    src: url('../fonts/LoewNextArabic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-ExtraBold.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-ExtraBold.woff') format('woff'),
+        url('../fonts/LoewNextArabic-ExtraBold.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-ExtraBold.svg#LoewNextArabic-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Loew Next Arabic';
+    src: url('../fonts/LoewNextArabic-Heavy.eot');
+    src: url('../fonts/LoewNextArabic-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LoewNextArabic-Heavy.woff2') format('woff2'),
+        url('../fonts/LoewNextArabic-Heavy.woff') format('woff'),
+        url('../fonts/LoewNextArabic-Heavy.ttf') format('truetype'),
+        url('../fonts/LoewNextArabic-Heavy.svg#LoewNextArabic-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

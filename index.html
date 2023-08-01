@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCAM</title>
+
+    <!-- Owl -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</head>
+<body>
+    <header class="bg-light">
+        <nav class="navbar header-menu navbar-expand-lg">
+            <div class="container bg-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-w.png" alt="GCAM">
+                </a>
+              <button herf="#" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">خدماتي</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">اسئلة شائعة</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">التدريب و التوظيف</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">اتصل بنا</a>
+                  </li>
+                </ul>
+    
+                <span class="ms-3 me-0">|</span>
+    
+                <div class="d-flex ms-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <symbol id="check2" viewBox="0 0 16 16">
+                            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+                        </symbol>
+                        <symbol id="circle-half" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+                        </symbol>
+                        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+                          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+                        </symbol>
+                        <symbol id="sun-fill" viewBox="0 0 16 16">
+                          <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                        </symbol>
+                    </svg>
+                    <div class="dropdown bd-mode-toggle">
+                        <button herf="#" class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+                        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-start shadow" aria-labelledby="bd-theme-text">
+                        <li>
+                            <button herf="#" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
+                                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                                مضيئ
+                                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                            </button>
+                        </li>
+                        <li>
+                            <button herf="#" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                                داكن
+                                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                            </button>
+                        </li>
+                        <li>
+                            <button herf="#" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+                                تلقائي
+                                <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                            </button>
+                        </li>
+                        </ul>
+                    </div>
+        
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">English</a>
+                        </li>
+                    </ul>
+
+                    <!-- search -->
+                    <button onclick="openNav()" class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+
+                    <!-- The overlay -->
+                    <div id="myNav" class="overlay search-section">
+
+                      <!-- Button to close the overlay navigation -->
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                        <div class="btn btn-light">&times;</div>
+                      </a>
+
+                      <!-- Overlay content -->
+                      <div class="overlay-content">
+                        <div class="container">
+                          <h3 class="mb-3">ستجد كل ما تبحث عنه</h3>
+
+                          <form class="row my-5">
+                            <div class="col-lg-10 col-sm-12 my-2">
+                              <input type="search" readonly class="form-control" id="search" placeholder="ابحث هنا ..">
+                            </div>
+                            <div class="col-lg-2 col-sm-12 my-2 d-grid">
+                              <button type="submit" class="btn btn-primary">بحث <i class="bi bi-search"></i></button>
+                            </div>
+                          </form>
+
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+        </nav>
+
+        <nav id="primary-menu" class="navbar navbar-expand-lg navbar-primary bg-primary">
+            <!-- Container wrapper -->
+            <div class="container">
+              <!-- Toggle button -->
+              <button herf="#" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mega-menu" aria-controls="mega-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+              </button>
+          
+              <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="mega-menu">
+                <!-- Left links -->
+                <ul class="navbar-nav mega-menu ps-lg-0">
+                  
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      عن الهيئة <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;right: 0px;transform: translate(-350px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      الخدمات <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;right: 0px;transform: translate(-470px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">خدمات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      المؤشرات <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;right: 0px;transform: translate(-590px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      الانظمة <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;right: 0px;transform: translate(-710px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      الدراسات و الابحاث <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;right: 0px;transform: translate(-860px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      الشراكات <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;left: 0px;transform: translate(890px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      المعرفة الرقمية <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;left: 0px;transform: translate(730px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      المكتبة الرقمية <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;left: 0px;transform: translate(560px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Navbar dropdown -->
+                  <li class="nav-item dropdown dropdown-hover position-static">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-mdb-toggle="dropdown" aria-expanded="false">
+                      المركز الاعلامي <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown-menu w-100 mt-0 bg-mega-menu" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                      <!-- <div class="popover-arrow" style="position: relative;left: 0px;transform: translate(400px, 0px);top: -28px;"></div> -->
+                      <div class="container">
+                        <div class="row my-4">
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">عن الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة الرئيس</a>
+                              <a href="" class="list-group-item list-group-item-action">الرؤية و الرسالة و المهام</a>
+                              <a href="" class="list-group-item list-group-item-action">الأهداف</a>
+                              <a href="" class="list-group-item list-group-item-action">نظرة تاريخية</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيئة في الساحة الدولية</a>
+                              <a href="" class="list-group-item list-group-item-action">منجزات الهيئة خلال جائحة كورونا</a>
+                              <a href="" class="list-group-item list-group-item-action">مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">كلمة رئيس مجلس الادارة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">نبذة عن اعضاء مجلس الادارة</a>
+                              <a href="" class="list-group-item list-group-item-action">استراتيجية الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">الهيكل التنظيمي</a>
+                              <a href="" class="list-group-item list-group-item-action">قطاعات الهيئة</a>
+                              <a href="" class="list-group-item list-group-item-action">فروع الهيئة</a>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-lg-3">
+                            <div class="list-group list-group-flush">
+                              <a href="" class="list-group-item list-group-item-action">التنمية المستدامة</a>
+                              <a href="" class="list-group-item list-group-item-action">الميزانية</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+                <!-- Left links -->
+              </div>
+              <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+          </nav>
+
+    </header>
+
+    <main>
+
+      <section id="hero">
+        <div class="hero owl-carousel owl-theme">
+
+          <div class="item">
+            <div class="hero-img" style="background-image: url('images/hero-img.png')">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="text-start hero-content">
+                      <h3 class="text-color-primary mb-3">الرئيس التنفيذي للهيئة مشاركا في المنتدى السعودي ...</h3>
+                      <p class="text-color-primary">12/06/2023</p>
+                      <a herf="#" class="btn btn-outline-primary">المزيد <i class="bi bi-arrow-left"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="hero-img" style="background-image: url('images/hero-img.png')">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12">
+                    <div class="text-start hero-content">
+                      <h3 class="text-color-primary mb-3">الرئيس التنفيذي للهيئة مشاركا في المنتدى السعودي ...</h3>
+                      <p class="text-color-primary">12/06/2023</p>
+                      <a herf="#" class="btn btn-outline-primary">المزيد <i class="bi bi-arrow-left"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h4 class="text-color-primary text-center section-heading">خدمات الهيئة</h4>
+          <div class="services owl-carousel owl-theme">
+
+            <div class="item">
+              <a href="" class="card bg-light">
+                <div class="card-body text-center">
+                    <div class="text-center">
+                      <img src="images/logo-icon.png" alt="">
+                    </div>
+                    <p class="text-color-primary">ترخيص تقديم الافراد للمحتوى الاعلاني عبر منصات التواصل الاجتماعي</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="" class="card bg-light">
+                <div class="card-body text-center">
+                    <div class="text-center">
+                      <img src="images/logo-icon.png" alt="">
+                    </div>
+                    <p class="text-color-primary">استيراد و توزيع المحتوى الاعلامي المرئي و المسموع</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+              <a href="" class="card bg-light">
+                <div class="card-body text-center">
+                    <div class="text-center">
+                      <img src="images/logo-icon.png" alt="">
+                    </div>
+                    <p class="text-color-primary">ترخيص توزيع او استيراد الافلام السينمائية و الفيديو و البرامج التلفزيونية</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+              <a href="" class="card bg-light">
+                <div class="card-body text-center">
+                    <div class="text-center">
+                      <img src="images/logo-icon.png" alt="">
+                    </div>
+                    <p class="text-color-primary">ترخيص انتاج المحتوى المرئي و المسموع</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="" class="card bg-light">
+                <div class="card-body text-center">
+                    <div class="text-center">
+                      <img src="images/logo-icon.png" alt="">
+                    </div>
+                    <p class="text-color-primary">ترخيص تقديم الافراد للمحتوى الاعلاني عبر منصات التواصل الاجتماعي</p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-3">
+            <a herf="#" class="btn btn-outline-primary">خدمات الهيئة <i class="bi bi-box-arrow-up-left"></i></a>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="news" class="bg-light">
+        <div class="container">
+          <h4 class="text-color-primary text-center section-heading">اخبار الهيئة</h4>
+          <div class="news owl-carousel owl-theme">
+
+            <div class="item">
+              <div class="card">
+                <img src="images/image-5.png" class="card-img-top">
+                <div class="card-body p-4">
+                  <h5 class="text-color-primary">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي لخدمات الحج</h5>
+                  <p class="card-text">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي ...</p>
+                  <span class="text-color-primary">12/06/2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <img src="images/image-5.png" class="card-img-top">
+                <div class="card-body p-4">
+                  <h5 class="text-color-primary">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي لخدمات الحج</h5>
+                  <p class="card-text">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي ...</p>
+                  <span class="text-color-primary">12/06/2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <img src="images/image-5.png" class="card-img-top">
+                <div class="card-body p-4">
+                  <h5 class="text-color-primary">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي لخدمات الحج</h5>
+                  <p class="card-text">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي ...</p>
+                  <span class="text-color-primary">12/06/2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <img src="images/image-5.png" class="card-img-top">
+                <div class="card-body p-4">
+                  <h5 class="text-color-primary">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي لخدمات الحج</h5>
+                  <p class="card-text">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي ...</p>
+                  <span class="text-color-primary">12/06/2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card">
+                <img src="images/image-5.png" class="card-img-top">
+                <div class="card-body p-4">
+                  <h5 class="text-color-primary">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي لخدمات الحج</h5>
+                  <p class="card-text">الهيئة العامة للإعلام المرئي والمسموع تدشن مركزها الإعلامي ...</p>
+                  <span class="text-color-primary">12/06/2023</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-3">
+            <a herf="#" class="btn btn-outline-primary">المزيد من الاخبار <i class="bi bi-box-arrow-up-left"></i></a>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="clear">
+        <div class="container">
+          <h4 class="text-color-primary text-center section-heading">فسح مؤخرا</h4>
+          <div class="clear owl-carousel owl-theme">
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/1.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الأفلام</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/2.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الأفلام</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/3.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الأفلام</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/4.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الالعاب</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/5.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الالعاب</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/1.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الأفلام</span>
+                </div>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="#" class="card">
+                <img src="images/2.png" class="card-img">
+                <div class="card-img-overlay">
+                  <span class="badge text-bg-primary">الأفلام</span>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- support icon -->
+      <div class="position-fixed">
+        <button type="button" class="btn btn-secondary">
+          <img src="images/support.svg" alt="">
+        </button>
+      </div>
+
+      <section id="gcam-systems" class="bg-light">
+        <div class="gcam-systems py-5">
+          <div class="container my-4">
+            <h4 class="text-color-primary text-center section-heading">أنظمة الهيئة</h4>
+            <div class="row mt-auto">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card bg-secondary my-2">
+                  <div class="card-color-primary text-center py-7">
+                    <img src="images/video.png" alt="نظام الاعلام المرئي والسموع">
+                    <p class="my-3">نظام الاعلام المرئي والسموع</p>
+                    <!-- overlay -->
+                    <div class="overlay-card">
+                      <div class="overlay-content">
+                        <p class="my-3">نظام الاعلام المرئي والسموع</p>
+                        <div class="my-3">يهدف النظام إلى تنظيم نشاط الإعلام المرئي والمسموع داخل المملكة...</div>
+                        <a herf="#" class="btn btn-outline-light my-3">المزيد <i class="bi bi-arrow-left"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card bg-secondary my-2">
+                  <div class="card-color-primary text-center py-7">
+                    <img src="images/game.png" alt="صنف">
+                    <p class="my-3">صنف</p>
+                    <!-- overlay -->
+                    <div class="overlay-card">
+                      <div class="overlay-content">
+                        <p class="my-3">صنف</p>
+                        <div class="my-3">تستطيع مشاهدة محتوى الألعاب والتصنيف العمري..</div>
+                        <a herf="#" class="btn btn-outline-light my-3">المزيد <i class="bi bi-arrow-left"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card bg-secondary my-2">
+                  <div class="card-color-primary text-center py-7">
+                    <img src="images/docs.png" alt="اللوائح والوثائق">
+                    <p class="my-3">اللوائح والوثائق</p>
+                    <!-- overlay -->
+                    <div class="overlay-card">
+                      <div class="overlay-content">
+                        <p class="my-3">اللوائح والوثائق</p>
+                        <div class="my-3"></div>
+                        <a herf="#" class="btn btn-outline-light my-3">المزيد <i class="bi bi-arrow-left"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="bg-footer py-5">
+        <div class="container">
+          <h3 class="mb-4">تواصل معنا</h3>
+          <div class="row">
+            <div class="col-lg-3 col-sm-12">
+              <div class="border rounded p-3 my-3">
+                <div class="d-flex">
+                  <div class="col-3 text-center">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="col-9 d-block">
+                    <h6>مركز المساعدة</h6>
+                    <a href="tel:920004242" target="_blank"><span class="footer-item">920004242</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+              <div class="border rounded p-3 my-3">
+                <div class="d-flex">
+                  <div class="col-3 text-center">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="col-9 d-block">
+                    <h6>البريد الالكتروني</h6>
+                    <a href="mailto:contact.us@gcam.gov.sa" target="_blank"><span class="footer-item">contact.us@gcam.gov.sa</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="border rounded p-3 my-3">
+                <div class="d-flex">
+                  <div class="col-2 text-center">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="col-auto d-block">
+                    <h6>مقر الهيئة</h6>
+                    <a href="#" target="_blank"><p class="footer-item">الرياض حي النخيل، <br> طريق الامام سعود بن عبد العزيز</p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+          <h3 class="mb-4">روابط سريعة</h3>
+          <div class="row">
+
+            <div class="col-lg-3 col-sm-6 my-sm-2">
+              <ul class="navbar-nav d-block">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">عن الهيئة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">خدمات الهيئة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المؤشرات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">أنظمة الهيئة</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6 my-sm-2">
+              <ul class="navbar-nav d-block">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المركز الاعلامي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">البيانات المفتوحة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">خدماتي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">الاسئلة الشائعة</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 my-sm-2">
+              <ul class="navbar-nav d-block">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">اتصل بنا</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">مركز المساعدة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">الاشتراك في النشرة البريدية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المشاركة المجتمعية</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-sm-6 my-sm-2">
+              <ul class="navbar-nav d-block">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">شروط الاستخدام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">سياسة الخصوصوية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">المشاركة المجتمعية</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary py-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-12">
+              <div class="copy-right">
+                <p>جميع الحقوق محفوظة الهيئة العامة للإعلام المرئي والمسموع | المملكة العربية السعودية <span>2023</span> &copy;</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="logo-footer text-end text-xm-center">
+                <img src="images/logo-footer.png" alt="GCAM">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- index Js -->
+    <script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
